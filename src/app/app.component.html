@@ -1,0 +1,22 @@
+<div class="container">
+
+    <table class="table table-striped">
+        <thead>
+            <tr class="table-info">
+                <th scope="col">#</th>
+                <th scope="col">UID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let result of data">
+                <th scope="row">{{result.id}}</th>
+                <td>{{result.userId}}</td>
+                <td>{{result.title}}</td>
+                <td>{{result.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
